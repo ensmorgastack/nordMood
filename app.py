@@ -15,7 +15,7 @@ def analyze_sentiment(text):
 def translate_to_swedish(text):
     return GoogleTranslator(source='en', target='sv').translate(text)
 
-st.title("NordMood: Emotional Translator to Swedish")
+st.title("DEV NordMood: Emotional Translator to Swedish")
 
 user_input = st.text_input("Enter a sentence in English")
 

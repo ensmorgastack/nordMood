@@ -53,9 +53,13 @@ optionFrom = st.selectbox(
     "Pick FROM language",
     (language_codes),
 )
+
+language_codes_to = language_codes.copy()
+language_codes_to.pop(optionFrom, None)
+
 optionTo = st.selectbox(
     "Pick TO language",
-    (language_codes),
+    (language_codes_to),
 )
 
 user_input = st.text_input(f"Enter a sentence in {optionFrom[2:]}")

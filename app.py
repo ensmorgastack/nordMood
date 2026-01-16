@@ -34,40 +34,6 @@ language_codes = {
     "🇺🇦 Ukrainian": "uk"
 }
 
-
-language_codes = {
-    "🇧🇬 Bulgarian": "bg",
-    "🇨🇳 Chinese (Simplified)": "zh-CN",
-    "🇨🇿 Czech": "cs",
-    "🇩🇰 Danish": "da",
-    "🇳🇱 Dutch": "nl",
-    "🇬🇧 English": "en",
-    "🇪🇪 Estonian": "et",
-    "🇫🇮 Finnish": "fi",
-    "🇫🇷 French": "fr",
-    "🇩🇪 German": "de",
-    "🇬🇷 Greek": "el",
-    "🇭🇺 Hungarian": "hu",
-    "🇮🇩 Indonesian": "id",
-    "🇮🇹 Italian": "it",
-    "🇯🇵 Japanese": "ja",
-    "🇰🇷 Korean": "ko",
-    "🇱🇻 Latvian": "lv",
-    "🇱🇹 Lithuanian": "lt",
-    "🇳🇴 Norwegian (Bokmål)": "no",
-    "🇵🇱 Polish": "pl",
-    "🇵🇹 Portuguese": "pt",
-    "🇷🇴 Romanian": "ro",
-    "🇷🇺 Russian": "ru",
-    "🇸🇰 Slovak": "sk",
-    "🇸🇮 Slovenian": "sl",
-    "🇪🇸 Spanish": "es",
-    "🇸🇪 Swedish": "sv",
-    "🇹🇷 Turkish": "tr",
-    "🇺🇦 Ukrainian": "uk",
-}
-
-
 def analyze_sentiment(text):
     blob = TextBlob(text)
     polarity = blob.sentiment.polarity
